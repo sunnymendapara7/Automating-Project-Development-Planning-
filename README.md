@@ -155,27 +155,28 @@ Track the project progress:
 
 * `ticket_keys.json` → Jira ticket details
 * `test_cases.docx` → Generated test cases
-* GitHub Repository → [https://github.com/username/projectname](https://github.com/sunnymendapara7/sentiment-analysis-system)
-* Jira Project → [https://sunnymendapara09.atlassian.net/projects/SAS](https://sunnymendapara09.atlassian.net/projects/SAS) (check ticket comments for test cases)
+* GitHub Repository → [https://github.com/username/projectname]
+* Jira Project → [https://sunnymendapara09.atlassian.net/projects/project-key]
+(check ticket comments for test cases)
 
 #### ✅ Expected Output from `main.py`
 
 ```text
 Running Task 1: Automating Jira Ticket Creation
-Created ticket: SAS-33
+Created ticket: project-key-33
 ...
-Created ticket: SAS-39
+Created ticket: project-key-39
 Tickets saved to ticket_keys.json
 
 Running Task 2: Automating GitHub Repository Creation
-Repository already exists: https://github.com/sunnymendapara7/sentiment-analysis-system
+Repository already exists: https://github.com/sunnymendapara7/repo-name
 ...
 Repository setup complete
 
 Running Task 3: Automating Test Case Creation
-Linked test case to SAS-33
+Linked test case to project-key-33
 ...
-Linked test case to SAS-39
+Linked test case to project-key-39
 Test cases saved to test_cases.docx
 
 Updating GitHub Repository with All Files
@@ -197,3 +198,4 @@ Feel free to ⭐️ the repository, contribute, or raise issues.
 
 📬 For questions or collaboration, reach out to me at:
 **[sunnymendapara09@gmail.com](mailto:sunnymendapara09@gmail.com)**
+
